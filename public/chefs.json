@@ -1,0 +1,279 @@
+{
+    "chefs": [
+      {
+        "id": 1,
+        "name": "Chef Ayesha",
+        "picture": "https://img.freepik.com/free-photo/young-smiling-caucasian-cook-girl-chef-uniform-points-side-isolated-green-wall-with-copy-space_141793-33513.jpg?w=740&t=st=1683016815~exp=1683017415~hmac=6f093b0d84862941bdd0c1aec5f9c4c2151103f6b1ea60111d5f56707465f903",
+        "bio": "Chef Ayesha has been cooking for over 10 years and specializes in Bangladeshi cuisine. Her passion for cooking started at a young age and she has since honed her skills through training and experience.",
+        "likes": 500,
+        "recipes": 20,
+        "experience": 10,
+        "bangladeshi_recipes": [
+          {
+            "name": "Beef Bhuna",
+            "ingredients": [
+              "1 lb. beef",
+              "2 onions",
+              "3 garlic cloves",
+              "1 tsp. cumin",
+              "1 tsp. coriander",
+              "1 tsp. turmeric",
+              "1/2 tsp. chili powder",
+              "2 tomatoes",
+              "1/2 cup water",
+              "Salt to taste",
+              "2 tbsp. oil"
+            ],
+            "instructions": [
+              "Heat oil in a pan over medium heat.",
+              "Add onions and garlic and fry until golden brown.",
+              "Add cumin, coriander, turmeric, and chili powder and fry for 1-2 minutes.",
+              "Add beef and fry until browned on all sides.",
+              "Add tomatoes and water and stir well.",
+              "Cover and cook on low heat for 30-40 minutes or until the beef is tender.",
+              "Season with salt to taste and serve hot."
+            ]
+          },
+          {
+            "name": "Chingri Malai Curry",
+            "ingredients": [
+              "1 lb. shrimp",
+              "1 onion",
+              "3 garlic cloves",
+              "1 tsp. cumin",
+              "1 tsp. coriander",
+              "1 tsp. turmeric",
+              "1/2 tsp. chili powder",
+              "2 tomatoes",
+              "1 cup coconut milk",
+              "Salt to taste",
+              "2 tbsp. oil"
+            ],
+            "instructions": [
+              "Heat oil in a pan over medium heat.",
+              "Add onions and garlic and fry until golden brown.",
+              "Add cumin, coriander, turmeric, and chili powder and fry for 1-2 minutes.",
+              "Add shrimp and fry until pink.",
+              "Add tomatoes and stir well.",
+              "Add coconut milk and simmer for 5-7 minutes.",
+              "Season with salt to taste and serve hot."
+            ]
+          },
+          {
+            "name": "Chingri Malai Curry",
+            "ingredients": [
+              "1 lb. shrimp",
+              "1 onion",
+              "3 garlic cloves",
+              "1 tsp. cumin",
+              "1 tsp. coriander",
+              "1 tsp. turmeric",
+              "1/2 tsp. chili powder",
+              "2 tomatoes",
+              "1 cup coconut milk",
+              "Salt to taste",
+              "2 tbsp. oil"
+            ],
+            "instructions": [
+              "Heat oil in a pan over medium heat.",
+              "Add onions and garlic and fry until golden brown.",
+              "Add cumin, coriander, turmeric, and chili powder and fry for 1-2 minutes.",
+              "Add shrimp and fry until pink.",
+              "Add tomatoes and stir well.",
+              "Add coconut milk and simmer for 5-7 minutes.",
+              "Season with salt to taste and serve hot."
+            ]
+          }
+
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Chef Harun",
+        "picture": "https://img.freepik.com/free-photo/male-chef-cook-wearing-black-uniform-cook-hat-presenting-something-with-arms-standing-pink-background_141793-54267.jpg?w=740&t=st=1683016851~exp=1683017451~hmac=a07f6ed31d9ff40dc45bda77718d2a4bbe998b7e7745858f36c0cc0b66bca706",
+        "bio": "Chef Harun has been cooking for over 10 years and specializes in Bangladeshi cuisine. His passion for cooking started at a young age and he has since honed his skills through training and experience.",
+        "likes": 800,
+        "recipes": 20,
+        "experience": 10,
+        "bangladeshi_recipes": [
+          {
+            "name": "Beef Bhuna",
+            "ingredients": [
+              "1 lb. beef",
+              "2 onions",
+              "3 garlic cloves",
+              "1 tsp. cumin",
+              "1 tsp. coriander",
+              "1 tsp. turmeric",
+              "1/2 tsp. chili powder",
+              "2 tomatoes",
+              "1/2 cup water",
+              "Salt to taste",
+              "2 tbsp. oil"
+            ],
+            "instructions": [
+              "Heat oil in a pan over medium heat.",
+              "Add onions and garlic and fry until golden brown.",
+              "Add cumin, coriander, turmeric, and chili powder and fry for 1-2 minutes.",
+              "Add beef and fry until browned on all sides.",
+              "Add tomatoes and water and stir well.",
+              "Cover and cook on low heat for 30-40 minutes or until the beef is tender.",
+              "Season with salt to taste and serve hot."
+            ]
+          },
+          {
+            "name": "Chingri Malai Curry",
+            "ingredients": [
+              "1 lb. shrimp",
+              "1 onion",
+              "3 garlic cloves",
+              "1 tsp. cumin",
+              "1 tsp. coriander",
+              "1 tsp. turmeric",
+              "1/2 tsp. chili powder",
+              "2 tomatoes",
+              "1 cup coconut milk",
+              "Salt to taste",
+              "2 tbsp. oil"
+            ],
+            "instructions": [
+              "Heat oil in a pan over medium heat.",
+              "Add onions and garlic and fry until golden brown.",
+              "Add cumin, coriander, turmeric, and chili powder and fry for 1-2 minutes.",
+              "Add shrimp and fry until pink.",
+              "Add tomatoes and stir well.",
+              "Add coconut milk and simmer for 5-7 minutes.",
+              "Season with salt to taste and serve hot."
+            ]
+          },
+          {
+            "name": "Chingri Malai Curry",
+            "ingredients": [
+              "1 lb. shrimp",
+              "1 onion",
+              "3 garlic cloves",
+              "1 tsp. cumin",
+              "1 tsp. coriander",
+              "1 tsp. turmeric",
+              "1/2 tsp. chili powder",
+              "2 tomatoes",
+              "1 cup coconut milk",
+              "Salt to taste",
+              "2 tbsp. oil"
+            ],
+            "instructions": [
+              "Heat oil in a pan over medium heat.",
+              "Add onions and garlic and fry until golden brown.",
+              "Add cumin, coriander, turmeric, and chili powder and fry for 1-2 minutes.",
+              "Add shrimp and fry until pink.",
+              "Add tomatoes and stir well.",
+              "Add coconut milk and simmer for 5-7 minutes.",
+              "Season with salt to taste and serve hot."
+            ]
+          }
+
+        ]
+    },
+
+    {
+        "name": "Chapati",
+        "ingredients": [
+          "2 cups whole wheat flour",
+          "1 tsp. salt",
+          "1 tbsp. oil",
+          "3/4 cup water"
+        ],
+        "instructions": [
+          "In a mixing bowl, combine flour, salt, and oil.",
+          "Slowly add water and knead the dough until it's smooth and pliable.",
+          "Cover and let rest for 10-15 minutes.",
+          "Divide the dough into small balls and roll out into thin circles.",
+          "Heat a griddle or skillet over medium-high heat.",
+          "Place the chapati on the griddle and cook for 1-2 minutes on each side or until lightly browned and cooked through.",
+          "Serve hot with your favorite curry or chutney."
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Chef Hasan",
+        "picture": "https://img.freepik.com/premium-photo/portrait-handsome-indian-male-chef-posing-while-doing-activities_466689-14347.jpg?w=360",
+        "bio": "Chef Hasan is a Bangladeshi chef with over 15 years of experience in cooking traditional dishes. He has a passion for sharing his culinary knowledge and expertise with others and loves experimenting with new recipes and ingredients.",
+        "likes": 1000,
+        "recipes": 50,
+        "experience": 15,
+        "bangladeshi_recipes": [
+          {
+            "name": "Chicken Biryani",
+            "ingredients": [
+              "1 lb. chicken",
+              "2 cups basmati rice",
+              "2 onions",
+              "3 garlic cloves",
+              "1 tsp. cumin",
+              "1 tsp. coriander",
+              "1 tsp. turmeric",
+              "1/2 tsp. chili powder",
+              "2 tomatoes",
+              "1/2 cup yogurt",
+              "2 tbsp. ghee",
+              "2 cups water",
+              "Salt to taste"
+            ],
+            "instructions": [
+              "Wash and soak rice in water for 30 minutes.",
+              "Heat ghee in a pan over medium heat.",
+              "Add onions and garlic and fry until golden brown.",
+              "Add cumin, coriander, turmeric, and chili powder and fry for 1-2 minutes.",
+              "Add chicken and fry until browned on all sides.",
+              "Add tomatoes and yogurt and stir well.",
+              "Cover and cook on low heat for 15-20 minutes.",
+              "In a separate pot, boil 2 cups of water.",
+              "Add rice and salt to the pot and stir well.",
+              "Cover and cook on low heat for 10-15 minutes or until the rice is tender and fluffy.",
+              "In a serving dish, layer the chicken and rice, starting and ending with rice.",
+              "Cover and let rest for 5-10 minutes before serving."
+            ]
+          },
+          {
+            "name": "Chapati",
+            "ingredients": [
+              "2 cups whole wheat flour",
+              "1 tsp. salt",
+              "1 tbsp. oil",
+              "3/4 cup water"
+            ],
+            "instructions": [
+              "In a mixing bowl, combine flour, salt, and oil.",
+              "Slowly add water and knead the dough until it's smooth and pliable.",
+              "Cover and let rest for 10-15 minutes.",
+              "Divide the dough into small balls and roll out into thin circles.",
+              "Heat a griddle or skillet over medium-high heat.",
+              "Place the chapati on the griddle and cook for 1-2 minutes on each side or until lightly browned and cooked through.",
+              "Serve hot with your favorite curry or chutney."
+            ]
+          },
+          {
+            "name": "Chapati",
+            "ingredients": [
+              "2 cups whole wheat flour",
+              "1 tsp. salt",
+              "1 tbsp. oil",
+              "3/4 cup water"
+            ],
+            "instructions": [
+              "In a mixing bowl, combine flour, salt, and oil.",
+              "Slowly add water and knead the dough until it's smooth and pliable.",
+              "Cover and let rest for 10-15 minutes.",
+              "Divide the dough into small balls and roll out into thin circles.",
+              "Heat a griddle or skillet over medium-high heat.",
+              "Place the chapati on the griddle and cook for 1-2 minutes on each side or until lightly browned and cooked through.",
+              "Serve hot with your favorite curry or chutney."
+            ]
+          }
+        ]
+    }
+
+    ]
+}
+          
+  
