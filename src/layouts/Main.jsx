@@ -4,20 +4,21 @@ import Footer from '../pages/Shared/Footer/Footer';
 import Banner from '../pages/Shared/Banner/Banner';
 import Chefs from '../pages/Home/Chefs/Chefs';
 import { Button, Col, Container, Row } from 'react-bootstrap';
+import RightNav from '../pages/Shared/RightNav/RightNav';
 
 const Main = () => {
     return (
         <div>
             <Header></Header>
             <Banner></Banner>
-            <Container>
+            <Container className='mt-5 mb-5'>
                 <Row>
-                    <Col lg={10}>
+                    <Col lg={9}>
                         <Chefs></Chefs>
                     </Col>
-                    <Col lg={2}>
-                        <Button>Login With Google</Button>
-                        <Button>Login With Github</Button>
+                    <Col lg={3}>
+                        <RightNav></RightNav>
+                    
                     </Col>
                 </Row>
             </Container>

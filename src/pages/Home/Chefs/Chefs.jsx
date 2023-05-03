@@ -15,7 +15,7 @@ const Chefs = () => {
         <div>
             <Container>
             <h4 className='text-center'> Our All Bangladeshi Chefs And Their Recipes</h4>
-                <div className='d-flex ml-2'>
+                <div className='d-flex'>
                 {
                     chefs.map(chef => <ChefCard
                     key={chef.id}
