@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import ChefCard from '../ChefCard/ChefCard';
 
 const Chefs = () => {
     const [chefs, setChefs]= useState([]);
@@ -15,14 +16,16 @@ const Chefs = () => {
         <div>
             <Container>
             <h4 className='text-center'> Our All Bangladeshi Chefs And Their Recipes</h4>
+                <div className='d-flex'>
                 {
-                    chefs.map(chef => <p 
+                    chefs.map(chef => <ChefCard
                     key={chef.id}
+                    chef={chef}
                     >
-                        <Link>{chef.name}</Link>
 
-                    </p>)
+                    </ChefCard>)
                 }
+                </div>
 
                 </Container>
             
