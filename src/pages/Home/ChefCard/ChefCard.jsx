@@ -8,7 +8,7 @@ import { GiCampCookingPot, GiCook } from "react-icons/gi";
 
 
 const ChefCard = ({ chef }) => {
-  const { name, picture, likes, recipes, experience, id } = chef;
+  const { name, picture, likes, recipes, experience,id } = chef;
   return (
     <div className="d-flex ml-2">
       <Card style={{ width: "16rem"}}>
