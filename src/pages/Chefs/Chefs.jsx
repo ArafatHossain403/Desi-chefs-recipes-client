@@ -7,8 +7,8 @@ const Chefs = () => {
 
     useEffect(()=>{
         fetch('http://localhost:5000/chefs')
-        .then(res => res.json)
-        .then(data => console.log(data))
+        .then(res => res.json())
+        .then(data => setChefs(data))
         .catch(error => console.error(error))
     },[])
     return (
@@ -23,9 +23,6 @@ const Chefs = () => {
 
                     </p>)
                 }
-
-
-
 
                 </Container>
             
