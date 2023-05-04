@@ -5,8 +5,24 @@ import { Button, Container, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
 import { FaGithub, FaGoogle } from 'react-icons/fa';
+import { GoogleAuthProvider, getAuth, signInWithPopup } from "firebase/auth";
+import app from "../../firebase/firebase.config";
 
 const Login = () => {
+    const auth =getAuth(app);
+    const provider =new GoogleAuthProvider();
+    const handleGoogleSignIn =()=> {
+        signInWithPopup(auth, provider)
+        .then(result =>{
+            const user = result.user;
+            console.log(user)
+        })
+        .catch(error=>{
+            console.log(error)
+        })
+
+
+    }
 
     const {createUser} = useContext(AuthContext);
     const handleSignIn = event =>{
@@ -61,7 +77,7 @@ const Login = () => {
           
             
         </Form>
-        <Button className='mb-3' variant="outline-warning"><FaGoogle />  Login With Google</Button>
+        <Button onClick={handleGoogleSignIn} className='mb-3' variant="outline-warning"><FaGoogle />  Login With Google</Button>
         <Button className='mb-3' variant="outline-warning"><FaGithub />   Login With Github</Button>
       </Container>
 
