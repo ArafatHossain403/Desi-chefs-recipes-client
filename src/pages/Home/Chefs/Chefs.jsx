@@ -6,7 +6,7 @@ const Chefs = () => {
     const [chefs, setChefs]= useState([]);
 
     useEffect(()=>{
-        fetch('http://localhost:5000/chefs')
+        fetch('https://y-arafathossain403.vercel.app/chefs')
         .then(res => res.json())
         .then(data => setChefs(data))
         .catch(error => console.error(error))
@@ -15,7 +15,7 @@ const Chefs = () => {
         <div>
             <Container>
             <h4 className='text-center'> Our All Bangladeshi Chefs And Their Recipes</h4>
-                <div className='d-flex'>
+                <div className='d-flex col-sm'>
                 {
                     chefs.map(chef => <ChefCard
                     key={chef.id}

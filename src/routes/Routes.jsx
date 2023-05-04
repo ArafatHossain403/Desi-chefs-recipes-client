@@ -29,7 +29,7 @@ const router= createBrowserRouter([
     {
         path:'chefs',
         element:<ChefLayouts></ChefLayouts>,
-        loader: ({params}) => fetch(`http://localhost:5000/chefs/${params.id}`),
+        loader: ({params}) => fetch(`https://y-arafathossain403.vercel.app/chefs/${params.id}`),
         children: [
             {
                 path:':id',

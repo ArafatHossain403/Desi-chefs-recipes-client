@@ -13,13 +13,10 @@ const Main = () => {
             <Banner></Banner>
             <Container className='mt-5 mb-5'>
                 <Row>
-                    <Col lg={9}>
+                    <Col lg={12}>
                         <Chefs></Chefs>
                     </Col>
-                    <Col lg={3}>
-                        <RightNav></RightNav>
                     
-                    </Col>
                 </Row>
             </Container>
            

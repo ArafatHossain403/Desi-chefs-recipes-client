@@ -4,6 +4,7 @@ import Footer from "../Shared/Footer/Footer";
 import { Button, Container, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
+import { FaGithub, FaGoogle } from 'react-icons/fa';
 
 const Login = () => {
 
@@ -60,6 +61,8 @@ const Login = () => {
           
             
         </Form>
+        <Button className='mb-3' variant="outline-warning"><FaGoogle />  Login With Google</Button>
+        <Button className='mb-3' variant="outline-warning"><FaGithub />   Login With Github</Button>
       </Container>
 
       <Footer></Footer>
