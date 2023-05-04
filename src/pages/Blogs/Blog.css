@@ -1,0 +1,20 @@
+.blog-banner{
+    background-color: beige;
+    color: black;
+    font-size: larger;
+    height: 100px;
+}
+.blog-banner h2{
+    text-align: center;
+    align-items: center;
+}
+.question-div{
+    text-align: center;
+}
+.question-div-ans{
+    margin-left: 200px;
+    text-align: center;
+    width: 800px;
+    margin-top: 50px;
+    
+}

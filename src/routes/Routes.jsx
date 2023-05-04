@@ -6,6 +6,8 @@ import Chefs from "../pages/Home/Chefs/Chefs";
 import ChefsDetails from "../pages/ChefsDetails/ChefsDetails";
 import Login from "../pages/Login/Login";
 import Registration from "../pages/Home/Registration/Registration";
+import Blog from "../pages/Blogs/Blog";
+import Error from "../pages/Error/Error";
 
 const router= createBrowserRouter([
     {
@@ -46,6 +48,16 @@ const router= createBrowserRouter([
     {
         path:'/registration',
         element: <Registration></Registration>
+
+    },
+    {
+        path:'/blog',
+        element: <Blog></Blog>
+
+    },
+    {
+        path:'*',
+        element:<Error></Error>
 
     }
 ])

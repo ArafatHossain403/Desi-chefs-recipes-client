@@ -6,7 +6,13 @@ import { AuthContext } from "../../../providers/AuthProvider";
 import { Link } from "react-router-dom";
 
 const Header = () => {
-  const {user} =  useContext(AuthContext); 
+  const {user, logout} =  useContext(AuthContext); 
+  const handleLogout = () =>{
+    logout()
+    .then()
+    .catch(error => console.log(error));
+  }
+
   return (
     <div>
       <Container>
@@ -18,14 +24,14 @@ const Header = () => {
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mx-auto">
                 <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/login">Blog</Nav.Link>
-                <Nav.Link href="#pricing">Chefs</Nav.Link>
+                <Nav.Link href="/blog">Blog</Nav.Link>
+                <Nav.Link href="/">Chefs</Nav.Link>
               </Nav>
               <Nav>
               <Nav.Link height={20} href=""><FaUserCircle/>{user}</Nav.Link>
                <div>
                { user ? 
-                  <Button variant="secondary">Logout</Button> :
+                  <Button onClick={handleLogout} variant="secondary">Logout</Button> :
                   <Button variant="secondary"><Link  className="text-decoration-none text-warning" to={"/login"}>Login</Link></Button>
                   }
                 
