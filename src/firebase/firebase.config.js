@@ -4,13 +4,14 @@ import { initializeApp } from "firebase/app";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
+
 const firebaseConfig = {
-  apiKey: "AIzaSyBCN7cgBbwDEeYoGmHi3I8wGUlxnFWtm50",
-  authDomain: "desi-chefs-recipes.firebaseapp.com",
-  projectId: "desi-chefs-recipes",
-  storageBucket: "desi-chefs-recipes.appspot.com",
-  messagingSenderId: "928837094421",
-  appId: "1:928837094421:web:abbd6656f6276001f4121c"
+  apiKey: import.meta.env.VITE_APIKEY,
+  authDomain: import.meta.env.VITE_AUTHDOMAIN,
+  projectId: import.meta.env.VITE_PROJECTID,
+  storageBucket: import.meta.env.VITE_STORAGEBUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGINGSENDERID,
+  appId: import.meta.env.VITE_APPID
 };
 
 // Initialize Firebase
