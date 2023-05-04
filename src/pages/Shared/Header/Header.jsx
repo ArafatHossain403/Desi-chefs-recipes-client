@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Button, Container, Nav, Navbar } from "react-bootstrap";
 import { CgProfile } from "react-icons/cg";
+import { FaUserCircle } from "react-icons/fa";
+import { AuthContext } from "../../../providers/AuthProvider";
+import { Link } from "react-router-dom";
 
 const Header = () => {
+  const {user} =  useContext(AuthContext); 
   return (
     <div>
       <Container>
@@ -14,12 +18,21 @@ const Header = () => {
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mx-auto">
                 <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="#pricing">Blog</Nav.Link>
+                <Nav.Link href="/login">Blog</Nav.Link>
                 <Nav.Link href="#pricing">Chefs</Nav.Link>
               </Nav>
               <Nav>
-              <Nav.Link height={20} href=""><CgProfile/></Nav.Link>
-                <Nav.Link href=""><Button variant="secondary">Log in</Button></Nav.Link>
+              <Nav.Link height={20} href=""><FaUserCircle/>{user}</Nav.Link>
+               <div>
+               { user ? 
+                  <Button variant="secondary">Logout</Button> :
+                  <Button variant="secondary"><Link  className="text-decoration-none text-warning" to={"/login"}>Login</Link></Button>
+                  }
+                
+               </div>
+                  
+                  
+                  
                 
               </Nav>
             </Navbar.Collapse>

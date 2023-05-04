@@ -4,6 +4,8 @@ import Home from "../pages/Home/Home/Home";
 import ChefLayouts from "../layouts/ChefLayouts";
 import Chefs from "../pages/Home/Chefs/Chefs";
 import ChefsDetails from "../pages/ChefsDetails/ChefsDetails";
+import Login from "../pages/Login/Login";
+import Registration from "../pages/Home/Registration/Registration";
 
 const router= createBrowserRouter([
     {
@@ -18,7 +20,8 @@ const router= createBrowserRouter([
                 path:'/',
                 element: <Chefs></Chefs>
 
-            }
+            },
+            
         ]
     },
     {
@@ -33,6 +36,16 @@ const router= createBrowserRouter([
 
             }
         ]
+
+    },
+    {
+        path:'/login',
+        element: <Login></Login>
+
+    },
+    {
+        path:'/registration',
+        element: <Registration></Registration>
 
     }
 ])
