@@ -5,6 +5,8 @@ import { FaUserCircle } from "react-icons/fa";
 import { AuthContext } from "../../../providers/AuthProvider";
 import { Link } from "react-router-dom";
 
+
+
 const Header = () => {
   const {user, logout} =  useContext(AuthContext); 
   const handleLogout = () =>{
@@ -23,9 +25,10 @@ const Header = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mx-auto">
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/blog">Blog</Nav.Link>
-                <Nav.Link href="/">Chefs</Nav.Link>
+                <Nav.Link className="fw-semibold" href="/">Home</Nav.Link>
+                <Nav.Link className="fw-semibold" href="/blog">Blog</Nav.Link>
+                <Nav.Link className="fw-semibold" href="/">Chefs</Nav.Link>
+                
               </Nav>
               <Nav>
               <Nav.Link height={20} href=""><FaUserCircle/>{user}</Nav.Link>

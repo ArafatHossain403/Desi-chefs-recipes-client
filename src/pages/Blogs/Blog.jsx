@@ -28,7 +28,7 @@ const Blog = () => {
                 </div>
                 <div className='question-div-ans' >
                     <h3>What is a custom hook, and why will you create a custom hook?</h3>
-                    <p>Hooks are reusable functions.When you have component logic that needs to be used by multiple components, we can extract that logic to a custom Hook.</p>
+                    <p>Hooks are reusable functions.When we have component logic that needs to be used by multiple components, we can extract that logic to a custom Hook.</p>
                 </div>
                 
                 
