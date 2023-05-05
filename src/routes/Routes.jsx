@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
-import Main from "../layouts/Main";
+import Main from "../components/layouts/Main";
 import Home from "../pages/Home/Home/Home";
-import ChefLayouts from "../layouts/ChefLayouts";
+import ChefLayouts from "../components/layouts/ChefLayouts";
 import Chefs from "../pages/Home/Chefs/Chefs";
 import ChefsDetails from "../pages/ChefsDetails/ChefsDetails";
 import Login from "../pages/Login/Login";
@@ -24,6 +24,7 @@ const router= createBrowserRouter([
 
             },
             
+            
         ]
     },
     {
@@ -32,12 +33,19 @@ const router= createBrowserRouter([
         loader: ({params}) => fetch(`https://y-arafathossain403.vercel.app/chefs/${params.id}`),
         children: [
             {
+                path:'*',
+                element:<Error></Error>
+        
+            },
+            {
                 path:':id',
                 element: <ChefsDetails></ChefsDetails>
                 // loader: ({params}) => fetch(`http://localhost:5000/chefs/${params.id}`),
 
             }
-        ]
+            
+        ],
+        
 
     },
     {

@@ -14,8 +14,8 @@ const Banner = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3 className='text-dark'>Bangladeshi Foods</h3>
-          <h4 className='text-primary'>Nulla vitae elit libero, a pharetra augue mollis interdum.</h4>
+          <h3 className='text-warning'>Bangladeshi Foods</h3>
+          <h4 className='text-warning'>The fish is a vital part of the Bangladeshi culture, and needless to say, it is a must-try food for those traveling to Bangladesh.</h4>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={1000}>
@@ -27,7 +27,7 @@ const Banner = () => {
 
         <Carousel.Caption>
           <h3 className='text-dark'>Different Chefs</h3>
-          <h4 className='text-primary'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+          <h4 className='text-warning'>The fish is a vital part of the Bangladeshi culture, and needless to say, it is a must-try food for those traveling to Bangladesh.</h4>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={1000}>
@@ -39,8 +39,8 @@ const Banner = () => {
 
         <Carousel.Caption>
           <h3 className='text-dark'> With Different Taste</h3>
-          <h4 className='text-primary'>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          <h4 className='text-warning'>
+          The fish is a vital part of the Bangladeshi culture, and needless to say, it is a must-try food for those traveling to Bangladesh.
           </h4>
         </Carousel.Caption>
       </Carousel.Item>

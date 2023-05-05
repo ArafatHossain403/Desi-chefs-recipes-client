@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../pages/Shared/Header/Header';
-import Footer from '../pages/Shared/Footer/Footer';
-import ChefsDetails from '../pages/ChefsDetails/ChefsDetails';
+import Header from '../../pages/Shared/Header/Header';
+import Footer from '../../pages/Shared/Footer/Footer';
+import ChefsDetails from '../../pages/ChefsDetails/ChefsDetails';
 import { useLoaderData, useParams } from 'react-router-dom';
 
 const ChefLayouts = () => {
